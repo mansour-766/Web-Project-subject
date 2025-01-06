@@ -1,0 +1,85 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 17, 20);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+.button-container {
+    background-color: #0056d2;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.button-container:hover {
+    background-color: #0041a3;
+}
+
+.button-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.course-overview {
+    display: flex;
+    gap: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-right: 75px;
+}
+
+.course-overview div {
+    text-align: center;
+    border-right: 1px solid #ddd;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.course-overview div p {
+    font-size: 14px;
+    margin: 10px 0 0;
+    color: #555;
+}
+
+u:hover {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+}
+
+span {
+    color: #ffcc00;
+}

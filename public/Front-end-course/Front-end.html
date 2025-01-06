@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .auth-buttons button {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            padding: 8px 20px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .auth-buttons .signup {
+            background-color: #ff9800;
+        }
+
+        .auth-buttons .signup:hover {
+            background-color: #e69c2f;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-left: 70px;
+            font-size: 40px;
+            color: #333;
+        }
+
+        p.statment {
+            margin-left: 70px;
+            font-size: 20px;
+            color: #555;
+        }
+
+        ol {
+            margin-left: 70px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .List_items_Design {
+            font-size: 30px;
+            margin-left: 55px;
+            margin-top: 20px;
+        }
+
+        .items_design {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .items_design:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content a {
+            color: #ffc107;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9em;
+        }
+
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-content p {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>Professor Academy</div>
+            <ul class="nav-links">
+                <li><a href="/HomePage/index.html">Home</a></li>
+                <li><a href="/page-2/Courses.html">Courses</a></li>
+                <li><a href="/Page-3/Library.html">Resources</a></li>
+                <li><a href="/Page-4/SuccessStories.html">Success Stories</a></li>
+                <li><a href="/page-5/ProfessorAcademyproject.html">About Us</a></li>
+                <li><a href="/Page-6/ContactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button>Log in</button>
+                <button class="signup">Sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <h1>What You Will Gain From This Course</h1>
+    <p class="statment">
+        This course is divided into three comprehensive sections—HTML, CSS, and
+        JavaScript—designed to give you a complete understanding of web
+        development.
+    </p>
+
+    <ol>
+        <li class="List_items_Design">
+            <a class="items_design" href="#HTML_content">HTML Section:</a>
+            <p class="statment">
+                You'll start by learning the building blocks of web pages. Master the
+                structure of web content, from headings and paragraphs to images,
+                links, and forms, ensuring you can create well-organized and semantic
+                HTML documents.
+            </p>
+        </li>
+        <li class="List_items_Design">
+            <a class="items_design" href="#CSS_content">CSS Section:</a>
+            <p class="statment">
+                Next, you'll dive into styling. Learn how to make your websites
+                visually appealing with CSS, from customizing colors and fonts to
+                creating complex layouts with Flexbox and Grid. You'll also learn how
+                to make your websites responsive, so they look great on any device.
+            </p>
+        </li>
+        <li class="List_items_Design">
+            <a class="items_design" href="#Js_content">JavaScript Section:</a>
+            <p class="statment">
+                In this final section, you’ll bring your websites to life with
+                JavaScript. Learn how to add interactive features such as buttons,
+                forms, and dynamic content updates, turning static pages into
+                engaging, user-friendly experiences.
+            </p>
+        </li>
+    </ol>
+    <hr>
+    <h2 id="HTML_content">HTML</h2>
+    <p class="statment">
+        HTML (HyperText Markup Language) is the standard language used to create
+        and structure content on the web. It defines the structure of a webpage,
+        allowing you to organize and display text, images, links, forms, and
+        multimedia. With HTML, you can create headings, paragraphs, and lists to
+        structure your content, making it easy to read and navigate. You can also
+        embed images, videos, and audio to make your pages more dynamic. Links are
+        used to connect different pages or external resources, and forms allow
+        users to interact with your website by submitting data. Mastering HTML is
+        the first step toward becoming a web developer, providing the foundation
+        upon which you'll build your skills with CSS and JavaScript.
+    </p>
+    
+    <table border="1" style="border-style: solid; margin: auto; border-width: 2px; border-color: black; width: 80%;">
+        <tr>
+            <th style="font-size: 36px; padding: 15px; background-color: #333; color: white;">Tag</th>
+            <th style="font-size: 36px; padding: 15px; background-color: #333; color: white;">Uses</th>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">&lt;h1&gt;</td>
+            <td style="font-size: 24px; padding: 15px;">Defines the main heading of a page. Used for important titles or headings.</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">&lt;p&gt;</td>
+            <td style="font-size: 24px; padding: 15px;">Defines a paragraph of text. Used for general content.</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">&lt;a&gt;</td>
+            <td style="font-size: 24px; padding: 15px;">Defines a hyperlink. Used for linking to other pages or resources.</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">&lt;img&gt;</td>
+            <td style="font-size: 24px; padding: 15px;">Defines an image. Used for embedding pictures into web pages.</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">&lt;ul&gt;</td>
+            <td style="font-size: 24px; padding: 15px;">Defines an unordered list. Used to create bullet-pointed lists.</td>
+        </tr>
+    </table>
+    
+
+    <h2 id="CSS_content">CSS</h2>
+    <p class="statment">
+        CSS (Cascading Style Sheets) is a stylesheet language used to control the
+        appearance and layout of HTML elements on a webpage...
+    </p>
+
+    <table border="1" style="border-style: solid; margin: auto; border-width: 2px; border-color: black; width: 80%;">
+        <tr>
+            <th style="font-size: 36px; padding: 15px; background-color: #333; color: white;">CSS Attribute</th>
+            <th colspan="1" style="font-size: 36px; padding: 15px; background-color: #333; color: white;">Uses</th>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">color</td>
+            <td style="font-size: 24px; padding: 15px;">Sets the color of the text. Example: color: red;</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">font-size</td>
+            <td style="font-size: 24px; padding: 15px;">Specifies the size of the text. Example: font-size: 16px;</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">background-color</td>
+            <td style="font-size: 24px; padding: 15px;">Sets the background color of an element. Example: background-color: blue;</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">margin</td>
+            <td style="font-size: 24px; padding: 15px;">Sets the margin space around an element. Example: margin: 20px;</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">padding</td>
+            <td style="font-size: 24px; padding: 15px;">Sets the padding space inside an element. Example: padding: 10px;</td>
+        </tr>
+    </table>
+    
+
+    <h2 id="Js_content">JavaScript</h2>
+    <p class="statment">
+        JavaScript is a versatile programming language that enables you to add
+        interactivity and dynamic behavior to web pages. Unlike HTML and CSS,
+        which are used for structuring and styling content, JavaScript allows you
+        to create interactive elements such as forms, buttons, and animations,
+        enhancing the user experience on your website.
+    </p>
+
+    <table border="1" style="border-style: solid; margin: auto; border-width: 2px; border-color: black; width: 80%;">
+        <tr>
+            <th style="font-size: 36px; padding: 15px; background-color: #333; color: white;">JavaScript Feature</th>
+            <th style="font-size: 36px; padding: 15px; background-color: #333; color: white;">Uses</th>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">alert()</td>
+            <td style="font-size: 24px; padding: 15px;">Displays an alert box with a message. Example: alert('Hello World!');</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">console.log()</td>
+            <td style="font-size: 24px; padding: 15px;">Logs a message to the console. Example: console.log('Debugging');</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">document.getElementById()</td>
+            <td style="font-size: 24px; padding: 15px;">Finds an element by its ID. Example: document.getElementById('myElement');</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">addEventListener()</td>
+            <td style="font-size: 24px; padding: 15px;">Attaches an event handler to an element. Example: button.addEventListener('click', function() { alert('Button clicked!'); });</td>
+        </tr>
+        <tr>
+            <td style="font-size: 24px; padding: 15px; border-right: 1px solid #ddd;">setTimeout()</td>
+            <td style="font-size: 24px; padding: 15px;">Executes a function after a specified delay. Example: setTimeout(function() { alert('Hello!'); }, 2000);</td>
+        </tr>
+    </table>
+<br>
+<video src="web.mp4" controls style="margin-left: 150px;" autoplay loop>Front-End</video>    
+<br>
+    <footer>
+        <div class="footer-content">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> |
+            <a href="#">Help Center</a>
+            <p>&copy; 2024 IT Learn Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

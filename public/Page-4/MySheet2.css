@@ -1,0 +1,79 @@
+.c1{
+    display: flex;
+    gap: 20px;
+}
+
+.c2 {
+    background-color: white;
+    border: 3px solid silver;
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.auth-buttons button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.auth-buttons .signup {
+    background-color: #ff9800;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

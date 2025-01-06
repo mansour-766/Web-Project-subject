@@ -1,0 +1,123 @@
+a{
+    padding: 10px;
+    text-decoration: solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+p{
+    text-align: left;
+}
+
+
+.m1{
+    display: flex;
+    gap: 30px;
+}
+
+.m2{
+    background-color:white;
+    padding: 25px;
+}
+
+.border{
+    background-color:white;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: gray;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+
+}
+
+.m3{
+    display: flex;
+    gap: 25px;
+}
+
+
+.form1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.m4 a:hover{
+text-decoration: underline;
+}
+
+form input, textarea, select{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid silver;
+    border-radius: 25px;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+.auth-buttons button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.auth-buttons .signup {
+    background-color: #ff9800;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align:center;
+    margin-top: 26px;
+}
+
+.footer-content a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}

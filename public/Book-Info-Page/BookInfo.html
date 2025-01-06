@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: #333;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        .auth-buttons button {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .auth-buttons .signup {
+            background-color: #ff9800;
+        }
+
+        #Book_And_Info {
+            position: relative;
+            margin-left: 28%;
+            margin-top: 100px;
+        }
+
+        #book_Image_And_Name {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            position: relative;
+        }
+
+        #book_Image_And_Name img {
+            height: 480px;
+            width: 340px;
+            box-shadow: -4px 4px 40px #00000048;
+            position: relative;
+            z-index: 2;
+        }
+
+        #book_Image_And_Name p {
+            z-index: 1;
+        }
+
+        #Info {
+            width: 1500px;
+            height: 700px;
+            background-color: white;
+            box-shadow: 0px 0px 20px #00000048;
+            position: absolute;
+            top: 520px;
+            z-index: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content a {
+            color: #ffc107;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9em;
+        }
+
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-content p {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;">
+    <script src="/server.js"></script>
+
+    <header>
+        <nav>
+            <div>Professor Academy</div>
+            <ul class="nav-links">
+                <li><a href="/HomePage/index.html">Home</a></li>
+                <li><a href="/page-2/Courses.html">Courses</a></li>
+                <li><a href="/Page-3/Library.html">Resources</a></li>
+                <li><a href="/Page-4/SuccessStories.html">Success Stories</a></li>
+                <li><a href="/page-5/ProfessorAcademyproject.html">About Us</a></li>
+                <li><a href="/Page-6/ContactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button>Log in</button>
+                <button class="signup">Sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <div id="Book_Info">
+
+        <div id="Book_And_Info">
+
+            <div id="book_Image_And_Name">
+
+                <img src="books-imgs//HTMLbook.jpg" alt="HTMLbook">
+                <p style="font-size: 50px;font-weight: bolder;">A Beginner's Guide</p>
+                <p style="font-size: 28px;position: absolute;margin-top: 125px;margin-left: 440px;"><br>Wendy Willard
+                </p>
+                <p style="font-size: 18px;position: absolute;margin-top: 200px;margin-left: 440px;">
+                    <em><br>HTML isn't just a language; it's the foundation<br> of the web, the canvas on which we
+                        paint<br> our ideas and bring them to life.</em>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div id="Info">
+
+            <div id="buy_and_other_stuff" style="display: flex;flex-direction: row;gap: 30px;">
+                <button id="buy_btn" style="border: none;background-color: black;color: white;margin-left: 55%;width: 200px;
+            height: 40px;margin-top: 50px;border-radius: 5px;">Buy</button>
+                <img src="books-imgs//save-instagram.png" alt=""
+                    style="margin-left: 300px;width: 35px;height: 35px;margin-top: 53px;">
+                <img src="books-imgs//share (1).png" alt="" style="width: 35px;height: 35px;margin-top: 53px;">
+
+            </div>
+
+            <hr style="margin-left: 740px;margin-right: 30px;"><br>
+
+            <div id="Description_And_Author" style="display: flex;flex-direction: row;">
+
+                <div id="Description">
+
+                    <h3 style="margin-left: 120px;font-size: 30px;margin-top: 75px;font-weight: bolder;">Description
+                    </h3>
+                    <p id="Desc" style="margin-left: 120px;font-size: 18px;">
+                        Dive into the world of web development with HTML: <br>The Essential Guide for Beginners! This
+                        comprehensive <br>
+                        book is your ultimate resource for mastering HTML, the backbone <br> of the modern internet.
+                        Whether
+                        you're a
+                        complete novice or looking <br>to refine your skills, this guide provides clear explanations,
+                        practical
+                        <br>
+                        examples, and hands-on projects to help you build stunning, <br>responsive web pages.
+                    </p>
+
+                </div>
+
+                <div id="Author">
+
+                    <h3 style="margin-left: 120px;font-size: 30px;margin-top: 75px;font-weight: bolder;">Author</h3>
+                    <p id="Desc" style="margin-left: 120px;font-size: 18px;">
+
+                        About Wendy Willard
+
+                        Wendy Willard is a renowned author,<br> web designer, and educator with a passion for making
+                        complex
+                        <br> web
+                        technologies accessible to everyone. With decades <br>of experience in web development,
+                        Wendy has
+                        authored
+                        several <br> best-selling books on HTML, CSS, and web design, helping <br>countless readers
+                        take their
+                        first
+                        steps into the digital world.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div id="What_will_you_learn_And_Tags" style="display: flex;flex-direction: row;">
+
+                <div id="What_will_you_learn">
+
+                    <h3 style="margin-left: 120px;font-size: 30px;margin-top: 35px;font-weight: bolder;">What You Will
+                        Learn:
+                    </h3>
+                    <p id="Desc" style="margin-left: 120px;font-size: 18px;">
+                    <ul style="margin-left: 30px;font-size: 18px;">
+                        <li>Master HTML fundamentals, including elements, tags, and attributes.
+                        </li>
+                        <li style="margin-top: 10px;">Build responsive web pages that work across all devices.
+                        </li>
+                        <li style="margin-top: 10px;">Use HTML as a foundation for advanced web technologies like CSS
+                            and JavaScript.
+                        </li>
+                    </ul>
+                    </p>
+
+                </div>
+
+                <div id="Tags">
+
+                    <h3 style="margin-left: 50px;font-size: 30px;margin-top: 35px;font-weight: bolder;">Tags
+                    </h3>
+                    <p id="Desc" style="margin-left: 120px;font-size: 18px;">
+                    <ul style="margin-left: 30px;font-size: 18px;" id="Ta">
+                        <li>HTML
+                        </li>
+                        <li style="margin-top: 10px;">Fast Pacing
+                        </li>
+                        <li style="margin-top: 10px;">For Beginners
+                        </li>
+                    </ul>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <footer style="margin-top: 600px;">
+        <div class="footer-content">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Help Center</a>
+            <p>&copy; 2024 IT Learn Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

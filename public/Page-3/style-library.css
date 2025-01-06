@@ -1,0 +1,233 @@
+/*Searchbar and Best 3 Books starts here  ---------------->*/
+#booksSearch {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#booksSearch #Background {
+    width: 100%;
+    height: auto;
+}
+
+#booksSearch #P1 {
+    position: absolute;
+    top: 13%;
+    margin-left: 50px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#booksSearch #P2 {
+    position: absolute;
+    top: 25%;
+    margin-left: 50px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#booksSearch #booksToDisplay {
+    position: absolute;
+    width: 39%;
+    margin-top: 4%;
+    height: auto;
+    transform: translateX(-100%);
+}
+
+#booksSearch #searchBar {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    
+    padding: 20px;
+    border-radius: 8px;
+    width: 800px;
+    height: 35px;
+    margin-left: 50px;
+}
+
+#bestBooks {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 325px;
+    gap: 50px;
+    margin-top: 68px;
+    margin-left: 19%;
+}
+
+#bestBooks .BOOK {
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+
+/* <---------Searchbar and Best 3 Books ends here  */
+
+/* Filter starts here  ---------------->*/
+
+#filter {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+#filter .buttonsDesign {
+    width: 150px;
+    height: 66px;
+    background-color: #d9d9d9;
+    /*for now  (change this later) */
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/* <---------Filter ends here  */
+
+/* Discover books starts here  ---------------->*/
+
+#DiscoverBooks .bookCollection {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+#DiscoverBooks .bookCollection .bookCollectionDesgin {
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    border: none;
+    box-shadow: 0px 0px 10px #000000;
+    gap: 20px;
+}
+
+/* <---------Discover books ends here  */
+
+/* PopularBooks books starts here  ---------------->*/
+
+#PopularBooks .bookCollection {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+#PopularBooks .bookCollection .bookCollectionDesgin {
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    border: none;
+    box-shadow: 0px 0px 10px #000000;
+    gap: 20px;
+}
+
+/* DontMissOnTheseBooks books starts here  ---------------->*/
+
+
+#DontMissOnTheseBooks .bookCollection {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+#DontMissOnTheseBooks .bookCollection .bookCollectionDesgin {
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    border: none;
+    box-shadow: 0px 0px 10px #000000;
+    gap: 20px;
+}
+
+/* <---------DontMissOnTheseBooks books ends here  */
+
+/* buttonsToNavigateBooks starts here  ---------------->*/
+
+.buttonsToNavigateBooks {
+    display: flex;
+    position: absolute;
+    gap: 1470px;
+}
+
+.navbtn {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin-top: 230px;
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #333;
+    color: #ffffff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+.auth-buttons button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.auth-buttons .signup {
+    background-color: #ff9800;
+}
+.auth-buttons .signup:hover {
+    background-color: #e69c2f;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+/* <---------buttonsToNavigateBooks ends here  */
+
+/*books effect starts here*/

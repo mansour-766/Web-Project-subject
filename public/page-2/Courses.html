@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Professor Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .C1 {
+            display: block;
+            margin: auto;
+            width: 1000px;
+            height: 400px;
+            margin-top: 30px;
+        }
+
+        .text {
+            top: 240px;
+            position: absolute;
+            right: 300px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .break {
+            display: block;
+        }
+
+        .C2 {
+            float: right;
+            margin-top: -37px;
+        }
+
+        #filter {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        #filter .buttonsDesign {
+            width: 150px;
+            height: 66px;
+            background-color: #d9d9d9;
+            /*for now  (change this later) */
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="/server.js"></script>
+    <header>
+        <nav>
+            <div>Professor Academy</div>
+            <ul class="nav-links">
+                <li><a href="/HomePage/index.html">Home</a></li>
+                <li><a href="/page-2/Courses.html">Courses</a></li>
+                <li><a href="/Page-3/Library.html">Resources</a></li>
+                <li><a href="/Page-4/SuccessStories.html">Success Stories</a></li>
+                <li><a href="/page-5/ProfessorAcademyproject.html">About Us</a></li>
+                <li><a href="/Page-6/ContactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button>Log in</button>
+                <button class="signup">Sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <img src="page-2-imgs/Photo 1.jpg" class="C1" alt="">
+        <div>
+            <h1 class="text">Your Journey to <span class="break"></span> Coding Excellence <span
+                    class="break"></span>Starts Here.</h1>
+        </div>
+    </div>
+
+    <h1 style="font-size: 28px; margin-top: 35px;margin-left:30px;">Expand Your Knowledge Base</h1>
+
+    <div id="filter">
+
+        <button class="buttonsDesign">Python</button>
+        <button class="buttonsDesign">Java</button>
+        <button class="buttonsDesign">HTML</button>
+        <button class="buttonsDesign">CSS</button>
+        <button class="buttonsDesign">JavaScript</button>
+        <button class="buttonsDesign">C++</button>
+
+    </div>
+
+    <section class="trends">
+        <div class="courses-grid">
+            <div class="course">
+                <img src="page-2-imgs/front end photo.jpg" alt="">
+                <h3>Learn Front-End Development: From Beginner to Web Designer</h3>
+                <p>DR. Waref Almanasser</p>
+                <div class="rating">4.8 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="/Enroll-page/Enrollment.html">Learn more</a>
+                </div>
+            </div>
+            <div class="course">
+                <img src="page-2-imgs/HTML PHOTO.jpg" alt="">
+                <h3>Mastering HTML: From Basics to Advanced</h3>
+                <p>DR. Waref Almanasser</p>
+                <div class="rating">5.0 &#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="course">
+                <img src="page-2-imgs/css photo.jpg" alt="">
+                <h3>CSS Mastery: From Beginner to Pro</h3>
+                <p>DR. Waref Almanasser</p>
+                <div class="rating">5.0 &#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="course">
+                <img src="page-2-imgs/js photo.jpg" alt="">
+                <h3>From Zero to JavaScript Hero: Learn to Code Like a Pro</h3>
+                <p>DR. Waref Almanasser</p>
+                <div class="rating">4.9 &#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+    </section>
+    <h1 style="font-size: 28px; margin-top: 35px;margin-left:30px">Recommended For You</h1>
+    <section class="trends">
+        <div class="courses-grid">
+            <div class="course">
+                <img src="page-2-imgs/python photo.jpg" alt="">
+                <h3>The Complete Python Bootcamp: From Zero to Hero in Python</h3>
+                <p>Dr. Mohammed Bani Domi</p>
+                <div class="rating">4.5 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="course">
+                <img src="page-2-imgs/c++ photo.jpg" alt="">
+                <h3>The Complete C++ Course: Learn to Code Like a Pro</h3>
+                <p>Dr. Hikmat </p>
+                <div class="rating">4.5 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="course">
+                <img src="page-2-imgs/java photo.jpg" alt="">
+                <h3>Java for Beginners: Your First Step to Becoming a Java Programmer</h3>
+                <p>DR. Baraa Qudomi</p>
+                <div class="rating">5.0 &#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="course">
+                <img src="page-2-imgs/HTML PHOTO.jpg" alt="">
+                <h3>Mastering HTML: From Basics to Advanced</h3>
+                <p> DR. Waref Almanasser </p>
+                <div class="rating">4.5 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <div class="buttons">
+                    <button class="enroll">ENROLL</button>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <h1 style="font-size: 28px; margin-top: 35px;">Learners are viewing</h1>
+
+        <section class="trends">
+            <div class="courses-grid">
+                <div class="course">
+                    <img src="page-2-imgs/python photo.jpg" alt="">
+                    <h3>The Complete Python Bootcamp: From Zero to Hero in Python</h3>
+                    <p>Dr. Mohammed Bani Domi</p>
+                    <div class="rating">4.5 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <div class="buttons">
+                        <button class="enroll">ENROLL</button>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="page-2-imgs/c++ photo.jpg" alt="">
+                    <h3>The Complete C++ Course: Learn to Code Like a Pro</h3>
+                    <p>Dr. Hikmat </p>
+                    <div class="rating">4.5 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <div class="buttons">
+                        <button class="enroll">ENROLL</button>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="page-2-imgs/java photo.jpg" alt="">
+                    <h3>Java for Beginners: Your First Step to Becoming a Java Programmer</h3>
+                    <p>DR. Baraa Qudomi</p>
+                    <div class="rating">5.0 &#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="buttons">
+                        <button class="enroll">ENROLL</button>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="page-2-imgs/c-programming-language-sharp-concept-260nw-1686430951.webp" alt="">
+                    <h3>From Zero to Hero:Learn C# and Become a Professional C# Developer</h3>
+                    <p>DR. Radwan Bateeha</p>
+                    <div class="rating">4.5 &#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <div class="buttons">
+                        <button class="enroll">ENROLL</button>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Help Center</a>
+            <p>&copy; 2024 IT Learn Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
